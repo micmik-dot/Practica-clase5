@@ -1,0 +1,26 @@
+/* Features */
+.feature-bg {
+padding: 40px 0;
+}
+
+.feature-item {
+width: 33.33%;
+float: left;
+}
+
+/* .feature-item-img, 
+.feature-item-content{
+    float: left;
+} */
+
+.feature-item > div {
+float: left;
+}
+
+.feature-item-content {
+margin-left: 27px;
+}
+
+.feature-item-content h3 {
+margin-bottom: 6px;
+}

@@ -1,0 +1,30 @@
+/* section-content (Range / Works)  */
+.section-content-wrapper {
+border-bottom: 1px solid #d7d6d6;
+}
+
+.section-content-header {
+text-align: center;
+margin-bottom: 88px;
+}
+
+.section-content-gallery {
+text-align: center;
+    img {
+        width: 100%;
+    }
+}
+
+//20 / 1200 x 100 = 1.6
+.section-content-gallery div + div {
+margin-left: 1.5%;
+}
+
+.section-content-gallery > div {
+width: 32.33%;
+float: left;
+}
+
+.section-content-gallery img {
+margin-bottom: 30px;
+}

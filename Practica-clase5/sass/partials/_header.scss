@@ -1,0 +1,27 @@
+/* Header */
+#header {
+  margin: 40px 0;
+  position: relative;
+}
+
+#nav {
+  float: right;
+}
+
+#nav a {
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
+  text-decoration: none;
+  margin-left: 73px;
+}
+
+#nav a + a {
+  margin-left: 73px;
+}
+
+#logo {
+  /* float: left; */
+  position: absolute;
+  left: 0;
+}

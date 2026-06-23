@@ -1,0 +1,39 @@
+/* Footer */
+.footer-bg {
+background-color: #03344f;
+padding: 40px 0;
+}
+
+#footer p,
+#footer h3 {
+color: white;
+}
+
+#footer h3:first-child {
+margin-bottom: 30px;
+}
+
+.footer-left {
+width: 33.33%;
+float: left;
+}
+
+.footer-right {
+width: 65%;
+float: left;
+margin-left: 1.6%;
+}
+
+.footer-right {
+    img {
+        width: 23.8%;
+        float: left;
+        + img {
+            margin-left: 1.6%;
+        }
+    }
+}
+
+// .footer-right img + img {
+// margin-left: 1.6%;
+// }

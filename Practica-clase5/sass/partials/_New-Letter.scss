@@ -1,0 +1,27 @@
+/* Newsletter */
+.newsletter-wrapper {
+background-color: #f2f5ff;
+text-align: center;
+}
+
+/* Form */
+form {
+margin-top: 50px;
+}
+
+//323 / 1200 x 100 = 27
+input[type="email"] {
+height: 63px;
+border: 1px solid #054c73;
+float: left;
+width: 65%;
+padding-left: 10px;
+}
+
+//154 / 1200 x 100 = 13
+input[type="submit"] {
+width: 31%;
+float: left;
+border: none;
+text-transform: capitalize;
+}

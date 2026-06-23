@@ -1,0 +1,39 @@
+/* Helper */
+.container {
+  max-width: $container-big; //Esto lo hace liquido
+  margin: 0 auto;
+}
+
+.container-small {
+  max-width: $container-small;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.btn {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  background-color: #054c73;
+  padding: 24px 10px;
+  display: inline-block;
+}
+
+.btn.big {
+  padding: 24px 57px;
+}
+
+.bg-light {
+  background-color: #f2f5ff;
+}
+
+.space-wrapper {
+  padding: 60px 0;
+}
